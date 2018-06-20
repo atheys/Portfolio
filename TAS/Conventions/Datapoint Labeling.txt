@@ -1,0 +1,49 @@
+[0] 	Time		Time
+[1] 	ID		Identifier/Label Aircraft
+[2] 	TYPE		Type								- IRRELEVANT 
+[3] 	FR		Flight registration label 					- IRRELEVANT			
+[4] 	LAT		Latitude
+[5] 	LON		Longitude
+[6] 	ALT		Altitude
+[7] 	IAS		Indicated airspeed						- IRRELEVANT			
+[8] 	MACH		Mach number							- IRRELEVANT
+[9] 	TAS		True airspeed							
+[10]	GS		Groundspeed							- IRRELEVANT
+[11] 	VS		Vertical speed
+[12] 	HDG		Heading
+[13] 	TRK		Tracking/Track mode						- IRRELEVANT
+[14] 	CMDHDG		Command (mode) heading						- IRRELEVANT
+[15] 	CMDALT		Command (mode) altitude					- IRRELEVANT	
+[16]	CMDSPD		Command (mode) speed (mode)					- IRRELEVANT
+[17]	CMDVS		Command (mode) vertical speed					- IRRELEVANT
+[18] 	PATH		Path angle							- IRRELEVANT
+[19]	BANK		Bank angle							- IRRELEVANT		
+[20] 	PITCH		Pitch angle							- IRRELEVANT
+[21] 	AOA		Angle of attack							- IRRELEVANT
+[22]	AXB		AxcessBoard ???	 						- IRRELEVANT
+[23]	WSPD		Winds speed							- IRRELEVANT
+[24]	WTRK		Wind tracking							- IRRELEVANT
+[25]	LNAV		Lateral navigation (vector)					- IRRELEVANT
+[26] 	VNAV		Vertical navigation (vector)					- IRRELEVANT
+[27]	SNAV		Short navigation (vector)					- IRRELEVANT
+[28]	ORIG		Origin								- IRRELEVANT			
+[29]	DEST		Destination							- IRRELEVANT
+[30]	WPNAME		Waypoint name							- IRRELEVANT
+[31] 	WPLAT		Waypoint latitude						- IRRELEVANT
+[32] 	WPLON		Waypoint longitude						- IRRELEVANT
+[33]	WPALT		Waypoint altitude						- IRRELEVANT
+[34]	WPSPD		Waypoint speed (mode)						- IRRELEVANT
+[35]	WPETA		Waypoint estimated time of arrival				- IRRELEVANT	
+[36]	WPRTA		Waypoint required time of arrival				- IRRELEVANT
+[37]	TCPNAME		Transport control panel (?) name				- IRRELEVANT		
+[38]	TCPLAT		Transport control panel (?) latitude				- IRRELEVANT
+[39]	TCPLON		Transport control panel (?) longitude				- IRRELEVANT
+[40]	TCPALT		Transport control panel (?) altitude				- IRRELEVANT
+[41]	TCPSPD		Transport control panel (?) speed (mode)			- IRRELEVANT
+[42]	TCPETA		Transport control panel (?) estimated time of arrival	- IRRELEVANT
+[43]	TCPRTA		Transport control panel (?) required time of arrival		- IRRELEVANT
+[44]	TCPDIST		Transport control panel (?) distance				- IRRELEVANT
+[45]	FLAPS		Flaps setting 							- IRRELEVANT
+[46]	SPOIL		Spoiler setting							- IRRELEVANT
+[47]	GEAR		Gear setting							- IRRELEVANT
+[48]	FLOWTYPE	Flowtype							- IRRELEVANT

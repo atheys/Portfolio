@@ -1,0 +1,19 @@
+-------------------------------------
+Simulation logbook
+Flight concept: FullMix
+Air traffic density: Medium
+Daytime: Lunch
+Iteration: 2
+Execution time: 89680 msec
+-------------------------------------
+File names created. Runtime: 0 mseconds.
+Data file succesfully readin, filtered and sorted. Runtime: 1036 mseconds.
+Intrusion Analysis Executed. Runtime: 19531 mseconds.
+Data stored.
+Conflict Analysis Executed. Runtime: 69075 mseconds.
+Data stored.
+Flight Efficiency Analysis Executed. Runtime: 6 mseconds.
+Data stored.
+Density Analysis Executed. Runtime: 31 mseconds.
+Data stored.
+Logbook updated.

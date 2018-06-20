@@ -1,0 +1,114 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+
+\title{Analytical Method for Intrusion Detection}
+\author{Andreas Theys (4291905)}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Introduction}
+This method aims at detecting flight intrusions in a densely populated urban airspace environment. The method primarily aims at the detection part of the equation and does not initially compute the maximum severity experienced during the intrusion. It provides a measure of certainty to determine whether two flying entities, both possessing a positional vector $\vec{x}$ and velocity vector $\vec{v}$, are subjected to the intrusion phenomenon within a certain time interval.     
+
+\section*{Initiation}
+Provided two flight entities with respective position vectors $\vec{x}_1 = [x_1 \ y_1 \ z_1]^{T}$, $\vec{x}_2 = [x_2 \ y_2 \ z_2]^{T}$ and velocity vectors $\vec{v}_1 = [v_{x_1} \ v_{y_1} \ v_{z_1}]^{T}$, $\vec{v}_2 = [v_{x_2} \ v_{y_2} \ v_{z_2}]^{T}$, a first step in the initiation process is the determination of the relative position and velocity vector at $t=0$ between these flying object as these relative vector entities are an essential tool in determining whether or not an intrusion will occur. It follows that:
+\begin{eqnarray*}
+\vec{d}_{rel} &=& \vec{x_2}-\vec{x_1} \\
+\vec{v}_{rel} &=& \vec{v_2}-\vec{v_1}
+\end{eqnarray*}
+Or, in other terms,
+\begin{eqnarray*}
+\vec{d}_{rel} &=& [x_2 \ y_2 \ z_2]^{T}-[x_1 \ y_1 \ z_1]^{T}\\
+\vec{v}_{rel} &=& [v_{x_2} \ v_{y_2} \ v_{z_2}]^{T}-[v_{x_1} \ v_{y_1} \ v_{z_1}]^{T}
+\end{eqnarray*}
+For purposes of convenience, the vector coefficient are noted in the following fashion throughout the remainder of this document:
+\begin{eqnarray*}
+\vec{d}_{rel}(0) &=& [x_0 \ y_0 \ z_0]^{T} \\
+\vec{v}_{rel} &=& [v_{x,0} \ v_{y,0} \ v_{z,0}]^{T}
+\end{eqnarray*}
+\noindent
+Thereafter, it is important to mention the vertical and horizontal margins that make up the intrusion boundary. Considering the coordinate transformation (LLA to EFEC; see also http://www.colorado.edu/geography/gcraft/notes/ datum/gif/llhxyz.gif) and a simulation that is ran around a small surface area near the crossing point of the equator and Prime Meridian (maximal error margin: $|\epsilon|<0.1m$), one must consider the $x$ coordinate axis to be pointing in the vertical direction, whereas the other two coordinate axis are considered coincident with the horizontal plane. Therefore, an intrusion is observed when the following Boolean expression is valid at some point of the simulation time interval $I_1 = [0,T]$, with $T$ the discrete interval timestep:
+\begin{eqnarray*}
+Intrusion(x(t),y(t),z(t)) \equiv (|x(t)|<50) \land (\sqrt{y(t)^2+z(t)^2}<250)
+\end{eqnarray*}
+\noindent
+With $x(t)$, $y(t)$ and $z(t)$ being the relative position vector coefficient at time $t$, $0\leq t \leq T$. Using the established notation of convenience, the aforementioned Boolean expression is reformulated as:
+\begin{eqnarray*}
+Intrusion(x,y,z) \equiv (|x_0 +v_{x,0}t|<50) \land (\sqrt{(y_0 +v_{y,0}t)^2+(z_0 +v_{z,0}t)^2}<250)
+\end{eqnarray*}
+
+\section*{Evaluation}
+Having established an evaluation criteria, one find himself in the position where an actual evaluation of the physical reality can executed. Provided the criteria for vertical and horizontal intrusion, separate time intervals $I_2$ and $I_3$ can be determined in which vertical, respectively horizontal, intrusion will occur, after which a simple intersection of these intervals will determine the actual intrusion time interval.\\
+\\
+Firstly, the vertical intrusion case is analyzed. Using the Boolean evaluator, vertical intrusion is observed while the following criterion is logically evident:
+\begin{eqnarray*}
+I_V(x_0,v_{x,0},t) \equiv |x_0 +v_{x,0}t|<50
+\end{eqnarray*}
+Which, after several steps of mathematical manipulation, corresponds to the following vertical intrusion time interval:
+\begin{eqnarray*}
+I_2(x_0,v_{x,0}) &=& ]m_V,M_V[ \ , \\
+m_v &=& min\{\frac{50-x_0}{v_{x,0}},\frac{-50-x_0}{v_{x,0}}\} \\
+M_v &=& max\{\frac{50-x_0}{v_{x,0}},\frac{-50-x_0}{v_{x,0}}\}
+\end{eqnarray*}
+\noindent
+Secondly, the horizontal intrusion case is considered. The criterion for horizontal intrusion is the following:
+\begin{eqnarray*}
+I_H(y_0,v_{y,0},z_0,v_{z,0},t) \equiv \sqrt{(y_0 +v_{y,0}t)^2+(z_0 +v_{z,0}t)^2}<250
+\end{eqnarray*}
+After which a horizontal intrusion time interval is derived in which
+the following condition logically true:
+\begin{eqnarray*}
+\sqrt{(y_0 +v_{y,0}t)^2+(z_0+v_{z,0}t)^2}<250
+\end{eqnarray*}
+Or, in other terms,
+\begin{eqnarray*}
+\sqrt{[(v_{y_0})^2+(v_{z_0})^2]t^2+2[y_0v_{y,0}+z_0 v_{z,0}]t+[(y_0)^2 +(z_0)^2]}<250
+\end{eqnarray*}
+A mathematical condition that is fulfilled in a time interval where the following quadratic inequality is valid as well: 
+\begin{eqnarray*}
+[(v_{y_0})^2+(v_{z_0})^2]t^2+2[y_0v_{y,0}+z_0 v_{z,0}]t+[(y_0)^2 +(z_0)^2-62500]<0
+\end{eqnarray*}
+\noindent
+Note: this statement is valid in this particular case, as it is backed up by valid existential and squaring conditions. More abstractly speaking, the interval $I_3$ determined by solving the inequality of the type:
+\begin{eqnarray*}
+at^2 + bt+c<0
+\end{eqnarray*}
+\noindent
+With, in this case, $a=(v_{y_0})^2+(v_{z_0})^2$, $b=2[y_0v_{y,0}+z_0 v_{z,0}]$ and $c=(y_0)^2 +(z_0)^2-62500$. Thereafter, the equation-specific discriminant is computed,
+\begin{eqnarray*}
+D = b^2-4ac
+\end{eqnarray*}
+\noindent
+If $D\leq0$, the upward-opening parabola (note: $a=(v_{y_0})^2+(v_{z_0})^2\geq0, \ \forall \ v_{y_0},v_{z_0}$) will never exceed the horizontal margin and, thus, never induce a horizontal intrusion ($I_3 = \emptyset$). On the other hand, the cases in which $D>0$ will induce horizontal intrusion, in which the root points $t_1 \equiv m_H$ and $t_2 \equiv M_H$, $t_1<t_2$, will determine the horizontal intrusion interval. Therefore,
+\begin{eqnarray*}
+I_3 &=& ]t_1,t_2[ \ = \ ]m_V,M_V[ \\
+m_V &=& min \{\frac{-b-\sqrt{D}}{2a},\frac{-b+\sqrt{D}}{2a}\} \\
+M_V &=& max \{\frac{-b-\sqrt{D}}{2a},\frac{-b+\sqrt{D}}{2a}\}
+\end{eqnarray*}
+\noindent
+Having establish a simulation interval $I_1 = [0,T]$, a vertical intrusion interval $I_2 = \ ]m_V,M_V[$ and horizontal interval $I_3 = \ ]m_H,M_H[$, the Boolean expression for pure intrusion detection is reformulated as:
+\begin{eqnarray*}
+Intrusion(x_0,y_0,z_0,v_{x,0},v_{y,0},v_{z,0}) \equiv (I_1\cap I_2(x_0,v_{x,0}) \cap I_3(y_0,z_0,v_{y,0},v_{z,0})) \not= \emptyset
+\end{eqnarray*}
+\noindent
+This evaluator aims to provide a logically solid foundation for the detection of flight intrusion. It will, additionally, provide the time interval in which intrusion is observed, a mathematical entity that will either be the null space in case of no intrusion or a continuous time interval $I_{intr}\subseteq I_1= [0,T]$ in which should be searched for the maximum severity of the intrusion and its time specification. 
+
+\section*{Further assessment}
+With a methodology for intrusion detection established, the question remains on how to approach the determination of the maximum severity of an intrusion phenomenon. As a start, the various intrusion values are established, after which an equation for the maximum severity if formulated, assuming $\vec{d}_{rel}$ and $\vec{v}_{rel}$ are known.
+\begin{eqnarray*}
+S_V(x_0,v_{x,0},t) = S_V(t) &=& 1-\frac{|x_0+v_{x,0}t|}{50} \\
+S_H(y_0,v_{y,0},z_0,v_{z,0},t) = S_H(t) &=& 1-\frac{\sqrt{(y_0+v_{y,0}t)^2+(z_0+v_{z,0}t)^2}}{250}\\
+S_max &=& max\{min\{S_V(t),S_H(t)\},\ t\in I_{intr} \}
+\end{eqnarray*}
+\noindent
+Knowing the intrusion interval $I_{intr}$, it remains one to determine whether to determine the point of maximal intrusion severity numerically or analytically, methodologies that have particular advantages and downsides. The exact establishing of these methodologies is, however, outside the scope of this document.
+
+
+\end{document}

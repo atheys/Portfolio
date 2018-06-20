@@ -1,0 +1,26 @@
+DATA STORAGE CONVENTIONS
+
+These conventions are important as to know how analysis data is stored 
+and how it will be available for statistical interpolation, manipulation
+and visualization.
+
+[1] Dataset
+On individual computers (see Google Drive for download).
+
+[1.bis] Simplified Dataset: 
+On individual computers (see Google Drive for download).
+
+[2] Main Simulation Logbook (only latest run)
+/……/TAS/Stats/MainLogBook.txt 
+
+[3] Dataset-specific Logbook
+/……/TAS/Stats/Concept/Density/Daytime/LogBook+Number.txt 
+
+[4] Flight Intrusions:
+/……/TAS/Stats/Concept/Density/Daytime/Intrusions+Number.txt
+
+[5] Flight Conflicts:
+/……/TAS/Stats/Concept/Density/Daytime/Conflicts+Number.txt  
+
+[6] Flight Efficiencies:
+/……/TAS/Stats/Concept/Density/Daytime/FlightEfficiencies+Number.txt

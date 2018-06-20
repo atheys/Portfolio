@@ -1,0 +1,19 @@
+-------------------------------------
+Simulation logbook
+Flight concept: Layers
+Air traffic density: Medium
+Daytime: Evening
+Iteration: 2
+Execution time: 79992 msec
+-------------------------------------
+File names created. Runtime: 0 mseconds.
+Data file succesfully readin, filtered and sorted. Runtime: 962 mseconds.
+Intrusion Analysis Executed. Runtime: 16524 mseconds.
+Data stored.
+Conflict Analysis Executed. Runtime: 62474 mseconds.
+Data stored.
+Flight Efficiency Analysis Executed. Runtime: 5 mseconds.
+Data stored.
+Density Analysis Executed. Runtime: 26 mseconds.
+Data stored.
+Logbook updated.

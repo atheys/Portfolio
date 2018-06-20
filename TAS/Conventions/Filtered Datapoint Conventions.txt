@@ -1,0 +1,11 @@
+# FILTERED DATAPOINT CONVENTIONS
+
+[0] Time 				[normalized]
+[1] ID 					[filtered of string impurities]
+[2] x-coordinate 			[vertical]
+[3] y-coordinate 			[horizontal]
+[4] z-coordinate 			[horizontal]
+[5] v_x (velocity x-direction) 	[vertical]
+[6] v_y (velocity y-direction) 	[horizontal]
+[7] v_z (velocity z-direction) 	[horizontal]
+//([8] Interpolated Splines)		[pseudo-data value]
