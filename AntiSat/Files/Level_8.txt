@@ -1,0 +1,58 @@
+Universe: 		1.0, 1.05, 3.0, 0.18
+Planet: 		Unknown Exometeor, 0.78e10, 50, 10, Comet2.png
+Launcher: 	45, 3, 1.55e3, Launcher_pad.png, Rocket3.png, Rocket3_thrusting.png
+Satellite:		210, cw, 0, ROCK1, Unknown
+Satellite:		210, cw, 60, ROCK1, Unknown
+Satellite:		210, cw, 120, ROCK1, Unknown
+Satellite:		210, cw, 180, ROCK1, Unknown
+Satellite:		210, cw, 240, ROCK1, Unknown
+Satellite:		210, cw, 300, ROCK1, Unknown
+
+Satellite:		250, ccw, 80, ALIEN1, Unknown
+
+Satellite:		350, cw, 0, ROCK2, Unknown
+Satellite:		350, cw, 45, ROCK2, Unknown
+Satellite:		350, cw, 90, ROCK2, Unknown
+Satellite:		350, cw, 135, ROCK2, Unknown
+Satellite:		350, cw, 180, ROCK2, Unknown
+Satellite:		350, cw, 225, ROCK2, Unknown
+Satellite:		350, cw, 270, ROCK2, Unknown
+Satellite:		350, cw, 315, ROCK2, Unknown
+
+Satellite:		390, cw, 300, NASA2, Confused Deep Impact
+
+Satellite:		480, ccw, 0, ROCK3, Unknown
+Satellite:		480, ccw, 36, ROCK3, Unknown
+Satellite:		480, ccw, 72, ROCK3, Unknown
+Satellite:		480, ccw, 108, ROCK3, Unknown
+Satellite:		480, ccw, 144, ROCK3, Unknown
+Satellite:		480, ccw, 180, ROCK3, Unknown
+Satellite:		480, ccw, 216, ROCK3, Unknown
+Satellite:		480, ccw, 252, ROCK3, Unknown
+Satellite:		480, ccw, 288, ROCK3, Unknown
+Satellite:		480, ccw, 324, ROCK3, Unknown
+
+Satellite:		550, ccw, 235, ROCK4, Unknown
+Satellite:		550, ccw, 245, ROCK4, Unknown
+Satellite:		550, ccw, 255, ROCK4, Unknown
+Satellite:		550, ccw, 265, ROCK4, Unknown
+
+Satellite:		550, ccw, 325, ROCK4, Unknown
+Satellite:		550, ccw, 335, ROCK4, Unknown
+Satellite:		550, ccw, 345, ROCK4, Unknown
+Satellite:		550, ccw, 255, ROCK4, Unknown
+
+Satellite:		550, ccw, 145, ROCK4, Unknown
+Satellite:		550, ccw, 155, ROCK4, Unknown
+Satellite:		550, ccw, 165, ROCK4, Unknown
+Satellite:		550, ccw, 175, ROCK4, Unknown
+
+Satellite:		550, ccw, 55, ROCK4, Unknown
+Satellite:		550, ccw, 65, ROCK4, Unknown
+Satellite:		550, ccw, 75, ROCK4, Unknown
+Satellite:		550, ccw, 85, ROCK4, Unknown
+
+Satellite:		650, ccw, 270, LANDER2, Lander
+
+Assignment:	LANDER
+

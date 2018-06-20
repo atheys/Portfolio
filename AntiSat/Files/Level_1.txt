@@ -1,0 +1,14 @@
+Universe: 		1.0, 1.05, 3.0, 0.35
+Planet: 		Earth, 1.12e10, 50, 10, Earth.png
+Launcher: 	45, 6, 0.9e3, Launcher_pad.png, Rocket.png, Rocket_thrusting.png
+Satellite:		550, ccw, 120, MOON, Sputnik I
+Satellite:		220, cw, 115, Roscosmos2, Sputnik I
+Satellite:		220, cw, 295, Roscosmos2, Sputnik II
+Satellite:		285, ccw, 0, ESA1, Artemis
+Satellite:		285, ccw, 185, Roscosmos1, Electro-LN1
+Satellite:		370, ccw, 60, ESA2, SMOS
+Satellite:		370, ccw, 140, ESA2, Proba-I
+Satellite:		370, ccw, 90, NASA1, EO-1
+Satellite:		480, cw, 90, NASA2, Landsat-2
+Satellite:		615, ccw, 130, NASA2, Landsat-1
+Assignment: 	AMERICAN

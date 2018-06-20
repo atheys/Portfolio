@@ -1,0 +1,15 @@
+Universe: 		1.0, 1.05, 3.0, 0.4
+Planet: 		Exoplanet I, 1.1e10, 50, 10, Exoplanet1.png
+Launcher: 	45, 3, 0.9e3, Launcher_pad.png, Rocket4.png, Rocket4_thrusting.png
+Assignment:	ALIEN
+Satellite: 		210, ccw, 90, MOON2, Exomoon I
+Satellite:		300, cw, 0, ALIEN3, Unidentified
+Satellite:		300, cw, 60, ROCK3, Unknown
+Satellite:		300, cw, 120, ROCK1, Unknown
+Satellite:		300, cw, 180, ROCK2, Unknown
+Satellite:		300, cw, 240, ROCK3, Unknown
+Satellite:		300, cw, 300, ROCK1, Unknown
+Satellite: 		385, ccw, 270, MOON3, Exomoon II
+Satellite: 		465, cw, 230, NASA2, Voyager I
+Satellite: 		465, cw, 40, MOON3, Exomoon III
+Satellite:		520, cw, 0, ALIEN1, Unidentified

@@ -1,0 +1,37 @@
+Universe: 		1.0, 1.05, 3.0, 0.10
+Planet: 		Exoplanet IV, 1.3e10, 50, 10, Exoplanet4.png
+Launcher: 	45, 2, 0.85e3, Launcher_pad.png, Rocket4.png, Rocket4_thrusting.png
+
+Satellite:		150, cw, 0, ALIEN2, Unidentified
+Satellite:		175, cw, 0, ALIEN2, Unidentified
+Satellite:		200, cw, 0, ALIEN2, Unidentified
+
+Satellite:		650, ccw, 0, ALIEN1, Unknown
+Satellite:		650, ccw, 15, ALIEN2, Unknown
+Satellite:		650, ccw, 30, ALIEN1, Unknown
+Satellite:		650, ccw, 45, ALIEN2, Unknown
+Satellite:		650, ccw, 60, ALIEN1, Unknown
+Satellite:		650, ccw, 75, ALIEN2, Unknown
+Satellite:		650, ccw, 90, ALIEN1, Unknown
+Satellite:		650, ccw, 105, ALIEN2, Unknown
+Satellite:		650, ccw, 120, ALIEN1, Unknown
+Satellite:		650, ccw, 135, ALIEN2, Unknown
+Satellite:		650, ccw, 150, ALIEN1, Unknown
+Satellite:		650, ccw, 165, ALIEN2, Unknown
+Satellite:		650, ccw, 180, ALIEN1, Unknown
+Satellite:		650, ccw, 195, ALIEN2, Unknown
+Satellite:		650, ccw, 210, ALIEN1, Unknown
+Satellite:		650, ccw, 225, ALIEN2, Unknown
+Satellite:		650, ccw, 240, ALIEN1, Unknown
+Satellite:		650, ccw, 255, ALIEN2, Unknown
+Satellite:		650, ccw, 270, ALIEN1, Unknown
+Satellite:		650, ccw, 285, ALIEN2, Unknown
+Satellite:		650, ccw, 300, ALIEN1, Unknown
+Satellite:		650, ccw, 315, ALIEN2, Unknown
+Satellite:		650, ccw, 330, ALIEN1, Unknown
+Satellite:		650, ccw, 345, ALIEN2, Unknown
+
+Satellite:		750, cw, 115, MOON2, Unknown
+
+
+Assignment:	ROCK

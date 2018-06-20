@@ -1,0 +1,18 @@
+Universe: 		1.0, 1.05, 3.0, 0.5
+Planet: 		Moon, 0.885e10, 50, 10, Moon.png
+Launcher: 	45, 7, 0.75e3, Launcher_pad.png, Rocket.png,Rocket_thrusting.png
+Satellite:		200, ccw, 90, ROCK2, Unknown
+Satellite:		200, ccw, 270, ROCK2, Unknown
+Satellite:		355, cw, 35, ROCK1, Unknown
+Satellite:		355, cw, 110, ROCK1, Unknown
+Satellite:		355, cw, 325, ROCK2, Unknown
+Satellite:		355, cw, 280, ROCK1, Unknown
+Satellite:		355, cw, 165, ROCK3, Unknown
+Satellite:		355, cw, 235, ROCK1, Unknown
+Satellite:		280, ccw, 150, Roscosmos2, KANOPUS-V1
+Satellite:		280, ccw, 275, Roscosmos1, KANOPUS-V2
+Satellite:		390, ccw, 45, NASA2, Lunar-Orbiter-X
+Satellite:		310, cw, 345, ESA1, Proba-V
+Satellite:		435, ccw, 230, Roscosmos1, Proba-V
+Satellite:		435, ccw, 60, Roscosmos2, Proba-V
+Assignment:	RUSSIAN

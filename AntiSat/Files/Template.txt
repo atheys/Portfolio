@@ -1,0 +1,4 @@
+Universe:	initial zoom_factor, zoom_speed, max_zoom, min_zoom
+Planet:		name, mass, radius, rot_speed, sprite
+Launcher:	start_angle, n_rockets, rocket_fuel, launcher_sprite, rocket_sprite
+Satellite:	altitude, direction, start_angle, agency, name

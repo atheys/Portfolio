@@ -1,0 +1,26 @@
+Universe: 		1.0, 1.05, 3.0, 0.75
+Planet: 		Unknown Meteor, 0.7e10, 50, 10, Comet.png
+Launcher: 	45, 2, 1e3, Launcher_pad.png, Rocket3.png, Rocket3_thrusting.png
+Satellite:		220, ccw, 0, ROCK2, Unknown
+Satellite:		220, ccw, 20, ROCK3, Unknown
+Satellite:		220, ccw, 40, ROCK4, Unknown
+Satellite:		220, ccw, 60, ROCK1, Unknown
+Satellite:		220, ccw, 80, ROCK2, Unknown
+Satellite:		220, ccw, 100, ROCK3, Unknown
+Satellite:		220, ccw, 120, ROCK4, Unknown
+Satellite:		220, ccw, 140, ROCK1, Unknown
+Satellite:		220, ccw, 160, ROCK2, Unknown
+Satellite:		220, ccw, 180, ROCK3, Unknown
+Satellite:		220, ccw, 200, ROCK4, Unknown
+Satellite:		220, ccw, 220, ROCK1, Unknown
+Satellite:		220, ccw, 240, ROCK2, Unknown
+Satellite:		220, ccw, 260, ROCK3, Unknown
+Satellite:		220, ccw, 280, ROCK4, Unknown
+Satellite:		220, ccw, 300, ROCK1, Unknown
+Satellite:		220, ccw, 320, ROCK1, Unknown
+Satellite:		220, ccw, 340, ROCK2, Unknown
+Satellite:		270, cw, 60, ESA1, Confused Huygens
+Satellite:		270, cw, 180, Roscosmos2, Deep Pravda I
+Satellite:		270, cw, 300, NASA2, Deep Space X 
+Satellite:		320, cw, 75, LANDER1, Rosetta’s Niece 
+Assignment:	LANDER

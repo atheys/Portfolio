@@ -1,0 +1,34 @@
+Universe: 		1.0, 1.05, 3.0, 0.14
+Planet: 		Exoplanet III, 1.24e10, 50, 10, Exoplanet3.png
+Launcher: 	45, 5, 0.55e3, Launcher_pad.png, Rocket4.png, Rocket4_thrusting.png
+
+Satellite:		200, cw, 0, MOON, Unknown
+Satellite:		200, cw, 120, MOON2, Unknown
+Satellite:		200, cw, 240, MOON3, Unknown
+
+Satellite:		400, cw, 18, ROCK1, Unknown
+Satellite:		400, cw, 36, ROCK2, Unknown
+Satellite:		400, cw, 54, ROCK3, Unknown
+Satellite:		400, cw, 72, ROCK4, Unknown
+Satellite:		400, cw, 90, ROCK1, Unknown
+Satellite:		400, cw, 108, ROCK2, Unknown
+Satellite:		400, cw, 126, ROCK3, Unknown
+Satellite:		400, cw, 144, ROCK4, Unknown
+Satellite:		400, cw, 162, ROCK1, Unknown
+Satellite:		400, cw, 180, ROCK2, Unknown
+Satellite:		400, cw, 198, ROCK3, Unknown
+Satellite:		400, cw, 216, ROCK4, Unknown
+Satellite:		400, cw, 234, ROCK1, Unknown
+Satellite:		400, cw, 252, ROCK2, Unknown
+Satellite:		400, cw, 270, ROCK3, Unknown
+Satellite:		400, cw, 288, ROCK4, Unknown
+Satellite:		400, cw, 306, ROCK1, Unknown
+Satellite:		400, cw, 324, ROCK2, Unknown
+Satellite:		400, cw, 342, ROCK3, Unknown
+Satellite:		400, cw, 0, ROCK4, Unknown
+
+Satellite:		750, ccw, 25, ALIEN1, Unidentified
+Satellite:		750, ccw, 145, ALIEN2, Unidentified
+Satellite:		750, ccw, 265, ALIEN3, Unidentified
+
+Assignment:	ALIEN

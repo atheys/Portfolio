@@ -1,0 +1,17 @@
+Universe: 		1.0, 1.05, 3.0, 0.35
+Planet: 		Neptune, 1.21e10, 50, 10, Neptune.png
+Launcher: 	45, 2, 0.6e3, Launcher_pad.png, Rocket2.png, Rocket2_thrusting.png
+Assignment:	RUSSIAN
+Satellite:		260, ccw, 0, ROCK2, Unknown
+Satellite:		260, ccw, 60, ROCK3, Unknown
+Satellite:		260, ccw, 120, ROCK1, Unknown
+Satellite:		260, ccw, 180, ROCK2, Unknown
+Satellite:		260, ccw, 240, ROCK3, Unknown
+Satellite:		260, ccw, 300, ROCK1, Unknown
+Satellite:		340, cw, 120, MOON, Neptune Moon I
+Satellite:		340, cw, -40, MOON, Neptune Moon II
+Satellite:		415, ccw, 70, NASA2, Deep Impact 
+Satellite: 		475, ccw, 230, MOON, Neptune Moon III
+Satellite: 		540, cw, 300, Roscosmos3, Deep Pravda X
+Satellite: 		580, cw, 150, ALIEN1, Unidentified
+Satellite: 		580, cw, 330, ALIEN1, Unidentified

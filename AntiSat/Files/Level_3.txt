@@ -1,0 +1,43 @@
+Universe: 		1.0, 1.05, 3.0, 0.3
+Planet: 		Jupiter, 1.3e10, 50, 10, Jupiter.png
+Launcher: 	45, 5, 1.3e3, Launcher_pad.png, Rocket2.png, Rocket2_thrusting.png
+Satellite:		310, cw, 23, ROCK1, Unknown
+Satellite:		310, cw, 45, ROCK3, Unknown
+Satellite:		310, cw, 68, ROCK2, Unknown
+Satellite:		310, cw, 113, ROCK2, Unknown
+Satellite:		310, cw, 135, ROCK3, Unknown
+Satellite:		310, cw, 158, ROCK4, Unknown
+Satellite:		310, cw, 203, ROCK1, Unknown
+Satellite:		310, cw, 225, ROCK3, Unknown
+Satellite:		310, cw, 247, ROCK4, Unknown
+Satellite:		310, cw, 293, ROCK2, Unknown
+Satellite:		310, cw, 315, ROCK2, Unknown
+Satellite:		310, cw, 338, ROCK1, Unknown
+Satellite:		395, ccw, 18, ROCK2, Unknown
+Satellite:		395, ccw, 36, ROCK3, Unknown
+Satellite:		395, ccw, 54, ROCK4, Unknown
+Satellite:		395, ccw, 72, ROCK1, Unknown
+Satellite:		395, ccw, 108, ROCK1, Unknown
+Satellite:		395, ccw, 126, ROCK1, Unknown
+Satellite:		395, ccw, 144, ROCK2, Unknown
+Satellite:		395, ccw, 162, ROCK2, Unknown
+Satellite:		395, ccw, 198, ROCK3, Unknown
+Satellite:		395, ccw, 216, ROCK4, Unknown
+Satellite:		395, ccw, 234, ROCK3, Unknown
+Satellite:		395, ccw, 252, ROCK2, Unknown
+Satellite:		395, ccw, 288, ROCK1, Unknown
+Satellite:		395, ccw, 306, ROCK1, Unknown
+Satellite:		395, ccw, 324, ROCK2, Unknown
+Satellite:		395, ccw, 342, ROCK3, Unknown
+Satellite:		450, cw, 40, LANDER1, Rosetta
+Satellite:		450, cw, 220, LANDER2, Unidentified
+Satellite:		520, ccw, 80, NASA1, Deep-Space-1
+Satellite:		520, ccw, 220, NASA2, Deep-Space-X
+Satellite:		520, ccw, 320, ESA1, Lost-Venus-Express
+Satellite:		560, cw, 345, Roscosmos3, Kosmos 248
+Satellite:		560, cw, 110, Roscosmos3, Kosmos 4812
+Satellite:		575, cw, 200, ESA1, Lost-Mars-Express
+
+Assignment:	EUROPEAN
+
+
